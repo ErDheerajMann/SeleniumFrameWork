@@ -3,6 +3,7 @@ package org.web.automation.testcases;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
+import org.web.automation.CommonActions.DropDowns;
 import org.web.automation.base.initDriver;
 
 public class TC001_Registration_Radio_checkbox extends initDriver {
@@ -11,12 +12,13 @@ public class TC001_Registration_Radio_checkbox extends initDriver {
 	public void TC001() {
 
 		driver.get("https://www.thetestingworld.com/testings");
-		driver.findElement(By.xpath("//input[@value='office']")).click();
-		
-		Select country = new Select(driver.findElement(By.name("country")));
-		
-		country.selectByVisibleText("India");
-		country.deselectAll();
+		DropDowns.simpleDropDownList(driver, "//input[@value='office']");
+//		driver.findElement(By.xpath("//input[@value='office']")).click();
+//		
+//		Select country = new Select(driver.findElement(By.name("country")));
+//		
+//		country.selectByVisibleText("India");
+//		country.deselectAll();
 	}
 	
 }
