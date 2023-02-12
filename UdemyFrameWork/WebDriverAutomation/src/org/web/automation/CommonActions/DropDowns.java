@@ -11,11 +11,11 @@ public class DropDowns {
 
 
 		
-		public static void simpleDropDownList(WebDriver driver, String e) {
+		public static void simpleDropDownList(WebDriver driver, WebElement e) {
 			
-			driver.findElement(By.xpath(e)).click();
+			e.click();
 			
-			Select country = new Select(driver.findElement(By.name("country")));
+			Select country = new Select(e);
 			
 			List<WebElement> list = country.getOptions();
 			
@@ -25,5 +25,19 @@ public class DropDowns {
 			
 
 	}
+		
+		
+		public static void selectFromDropDownVisibleText(WebDriver driver, WebElement e , String visibleText) {
+			
+			e.click();
+			
+			Select country = new Select(e);
+			country.selectByVisibleText("India");
+			
+			
+
+	}
+		
+		
 
 }

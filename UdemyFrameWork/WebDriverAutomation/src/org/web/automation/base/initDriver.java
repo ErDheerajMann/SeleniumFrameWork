@@ -34,11 +34,10 @@ public class initDriver {
 	}
 	
 
-	@AfterTest
-	public void closeBrowser() {
-		driver.close();
-		driver.quit();
-		driver=null;
-	}
+//	@AfterTest
+//	public void closeBrowser() {
+//		driver.quit();
+//		driver=null;
+//	}
 
 }

@@ -2,24 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-10T11:00:56 IST" name="Default suite" finished-at="2023-02-10T11:01:13 IST" duration-ms="16946">
+  <suite started-at="2023-02-12T08:46:42 IST" name="Default suite" finished-at="2023-02-12T08:46:54 IST" duration-ms="11873">
     <groups>
     </groups>
-    <test started-at="2023-02-10T11:00:56 IST" name="Default test" finished-at="2023-02-10T11:01:13 IST" duration-ms="16946">
-      <class name="org.web.automation.testcases.TC001_Registration_Button">
-        <test-method is-config="true" signature="startBrowser()[pri:0, instance:org.web.automation.testcases.TC001_Registration_Button@a514af7]" started-at="2023-02-10T11:00:56 IST" name="startBrowser" finished-at="2023-02-10T11:00:58 IST" duration-ms="2558" status="PASS">
+    <test started-at="2023-02-12T08:46:42 IST" name="Default test" finished-at="2023-02-12T08:46:54 IST" duration-ms="11873">
+      <class name="org.web.automation.testcases.TC001_Registration_Radio_SelectTag">
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:org.web.automation.testcases.TC001_Registration_Radio_SelectTag@4f6ee6e4]" started-at="2023-02-12T08:46:42 IST" name="startBrowser" finished-at="2023-02-12T08:46:44 IST" duration-ms="1776" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method signature="TC001()[pri:0, instance:org.web.automation.testcases.TC001_Registration_Button@a514af7]" started-at="2023-02-10T11:00:58 IST" name="TC001" finished-at="2023-02-10T11:01:12 IST" duration-ms="13945" status="PASS">
+        <test-method signature="TC001()[pri:0, instance:org.web.automation.testcases.TC001_Registration_Radio_SelectTag@4f6ee6e4]" started-at="2023-02-12T08:46:44 IST" name="TC001" finished-at="2023-02-12T08:46:54 IST" duration-ms="10066" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC001 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.web.automation.testcases.TC001_Registration_Button@a514af7]" started-at="2023-02-10T11:01:12 IST" name="closeBrowser" finished-at="2023-02-10T11:01:13 IST" duration-ms="410" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- org.web.automation.testcases.TC001_Registration_Button -->
+      </class> <!-- org.web.automation.testcases.TC001_Registration_Radio_SelectTag -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

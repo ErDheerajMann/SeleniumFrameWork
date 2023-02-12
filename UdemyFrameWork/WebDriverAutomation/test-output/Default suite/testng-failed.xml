@@ -5,7 +5,6 @@
     <classes>
       <class name="org.web.automation.testcases.TC001_Registration_Radio_SelectTag">
         <methods>
-          <include name="closeBrowser"/>
           <include name="startBrowser"/>
           <include name="TC001"/>
         </methods>
