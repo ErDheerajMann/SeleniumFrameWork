@@ -12,13 +12,9 @@ public class TC001_Registration_Radio_checkbox extends initDriver {
 	public void TC001() {
 
 		driver.get("https://www.thetestingworld.com/testings");
-		DropDowns.simpleDropDownList(driver, "//input[@value='office']");
-//		driver.findElement(By.xpath("//input[@value='office']")).click();
-//		
-//		Select country = new Select(driver.findElement(By.name("country")));
-//		
-//		country.selectByVisibleText("India");
-//		country.deselectAll();
+		driver.manage().window().maximize();
+		
+
 	}
 	
 }
